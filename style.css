@@ -1,0 +1,260 @@
+body{
+    font-family:'Comic Sans MS';
+  background-color:#7EC7CE;
+  margin:0px;
+  color:white;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+#wrapper{
+  height:85%;
+}
+#content{
+  height:18%;
+}
+#title{
+  font-size:87px;
+  font-family:'Comic Sans MS';
+  color:white;
+  text-align:right;
+}
+.row{
+/* text-align:center;*/
+  width:100%;
+  height:90px;
+  background-color:white;
+}
+.column1{
+  width:4%;
+  margin:1%;
+  padding-top:4.5%;
+      -webkit-border-radius: 50%;/* 50%でもOK */
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+#content{
+  clear:both;
+  width:92%;
+  margin-left: 4%;
+}
+#SW0{
+  padding-right: 3%;
+  padding-top:8%;
+}
+.title{
+  margin-top: -30px;
+}
+#title2{
+ text-align: center;
+}
+#SW1{
+  padding:6%;
+}
+#blink{
+  float:left;
+  width: 33%;
+  text-align: center;
+}
+#blink_img{
+  width:300px;
+  height: 300px;
+  border-radius: 300px;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  border-style:none;
+}
+
+.circle{
+   width: 300px;
+    height: 300px;
+    -webkit-border-radius: 50%;/* 50%でもOK */
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #7EC7CE;/* 円の色 */
+    margin-left:11%;
+    border-style:dashed;
+    font-size:190px;
+}
+
+#ec{
+  float:left;
+  width:33%;
+  text-align: center;
+}
+#cosme{
+  float:left;
+  width:33%;
+  text-align: center;
+}
+#SW2{
+/*background-color:#F4a17f*/
+  padding:6%;
+}
+#line{
+  background-color:white;
+  width:4px;
+  height:250px;
+  float: left;
+  margin-left: 9%;
+}
+.circle2{
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;/* 50%でもOK */
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #fff;/* 円の色 */
+    border-style:dashed;
+    font-size:10px;
+    margin-bottom: 17px;
+    margin-left: -31px;
+    margin-top: 5px;
+}
+#desc{
+  float: left;
+  margin-left: 10%;
+  width:70%;
+  margin-top: 7px;
+}
+
+.huki{
+  position: relative;
+  height: 30px;
+  width: 80%;
+  margin-bottom: 20px;
+  padding:15px;
+  border-radius:7px;
+  -webkit-border-radius:7px;
+  -moz-border-radius:7px;
+  -o-border-radius:7px;
+  -ms-border-radius:7px;
+  border:2px solid #fff;
+  /*background:#fff;*/
+}
+
+.huki::before{
+content: "";
+position: absolute;
+left: -20px;
+top: 50%;
+margin-top: -10px;
+width: 0px;
+height: 0px;
+border-right: 10px solid #fff;
+border-top: 10px solid transparent;
+border-left: 10px solid transparent;
+border-bottom: 10px solid transparent;
+z-index:102;
+}
+
+.huki::after{
+content: "";
+position: absolute;
+left: -14px;
+top: 50%;
+margin-top: -8px;
+width: 0px;
+height: 0px;
+border-right: 8px solid #7EC7CE;
+border-top: 8px solid transparent;
+border-left: 8px solid transparent;
+border-bottom: 8px solid transparent;
+z-index:103;
+}
+
+
+#SW3{
+/*background-color:#bde8f2*/
+  padding:6%;
+}
+#name{
+    width: 40%;
+    height: 60px;
+    margin-left: 30%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#mail{
+    width: 40%;
+    height: 60px;
+    margin-left: 30%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#toi{
+    width: 40%;
+    height: 180px;
+    margin-left: 30%;
+    font-size: 20px;
+    border-style: none;
+}
+.button {
+  margin-left: 42%;
+  margin-top:30px;
+  background-color: #7EC7CE;
+  border: 2px solid white;
+  color: white;
+  line-height: 50px;
+  display: inline-block;
+  width: 200px;
+  height: 54px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 54px;
+  outline: none;
+}
+.button::before,
+.button::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.button,
+.button::before,
+.button::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.button:hover {
+  background-color: #7EC7CE;
+  border-color: #fff;
+  color: #fff;
+}
+
+
+
+#SW4{
+  padding:6%;
+/*  background-color:#1cc46b*/
+}
+#boxes{
+/*  margin-left: 70%;*/
+/*  width:100%;*/
+}
+#box0{
+  float:left;
+  background-color:#F0B875;
+  margin-left: 76%;
+}
+#box1{
+  float:left;
+  background-color:#F4a17f
+}
+
+#box2{
+  float:left;
+  background-color:#bde8f2
+}
+#box3{
+  float:left;
+  background-color:#1cc46b
+}
+
+
